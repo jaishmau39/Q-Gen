@@ -15,17 +15,15 @@ A mobile application for automatically generating questions for teachers and stu
 - **SQLite Database**
 
 ## Project Structure
-```
-QuestionPaperGenerator/
-│── ModuleImplementation/  # Output images for reference
-│── DatabaseModule1.java  # Database helper class for storing student data
-│── DatabaseModule2.java  # Additional database operations
-│── Generation.java  # Question generation logic
-│── HomePage.java  # Main activity with navigation to question generation
-│── LoginPage.java  # User authentication logic
-│── PushQuestions.java  # Stores new questions in the database
-│── SignUpPage.java  # User registration and profile creation
-```
+- **ModuleImplementation** → Output images for reference
+- **DatabaseModule1.java** → Database helper class for storing student data
+- **DatabaseModule2.java** → Additional database operations
+- **Generation.java** → Question generation logic
+- **HomePage.java** → Main activity with navigation to question generation
+- **LoginPage.java** → User authentication logic
+- **PushQuestions.java** → Stores new questions in the database
+- **SignUpPage.java** → User registration and profile creation
+
 
 ## Database Schema (SQLite)
 The application uses an SQLite database with the following schema:
